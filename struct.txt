@@ -1,0 +1,26 @@
+<section>
+    <article class="item-explorer">
+        <div class="img-container" (50%)>
+            <img (attribuer width height et object-fit:cover)>
+        </div>
+        <div>
+            <p>Homme <a>Explorer</a></p>
+        </div>
+    </article>
+    <article class="item-explorer">
+        <div>
+            <p>Homme <a>Explorer</a></p>
+        </div>
+        <div class="img-container">
+            <img>
+        </div>
+    </article>
+    <article class="item-explorer">
+        <div class="img-container">
+            <img>
+        </div>
+        <div>
+            <p>Homme <a>Explorer</a></p>
+        </div>
+    </article>
+</section>

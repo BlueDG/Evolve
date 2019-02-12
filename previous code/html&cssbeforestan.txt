@@ -1,0 +1,120 @@
+<section class="main-equipment">
+                    <article class="equipment-intro">
+                        <div class="img-container-equipment">
+                            <img src="img/model.png" alt="mannequin homme">
+                        </div>
+                        <div class="intro-equipment">
+                            <h2>Équipements</h2>
+                            <a href="equipment.phtml">Explorer</a>
+                        </div>
+                    </article>
+                </section>
+                
+                
+                <section class="equipments">
+                    <article class="equipment-item">
+                        <div class="img-container-equipments">
+                            <img src="img/man.png" alt="mannequin homme">
+                        </div>
+                        <div class="intro-equipments">
+                            <h3 class="equipment-title">Homme</h4>
+                            <a href="men.phtml">Explorer</a>
+                        </div>
+                    </article>
+                    <article class="equipment-item">
+                        <div class="img-container-equipments">
+                            <img src="img/woman.png" alt="mannequin femme">
+                        </div>
+                        <div class="intro-equipments">
+                            <h3 class="equipment-title">Femme</h4>
+                            <a href="women.phtml">Explorer</a>
+                        </div>
+                    </article>
+                </section>
+                
+                
+                /* */
+                
+                
+                /************************ PARTIE EQUIPMENT MAIN **********************/
+
+/*.main-equipment {
+    margin-top: 50px;
+    display: flex;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.equipment-intro {
+    display: flex;
+}
+
+
+.img-container-equipment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.main-equipment img {
+    width: 100%;
+    height: auto;
+}
+
+.intro-equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+*/
+
+/*************************** PARTIE HOMME FEMME MAIN ****************/
+
+/*.equipments {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+
+.equipment-item {
+    display: flex;
+    width: 50%;
+    height: 600px;
+    justify-content: space-between;
+}
+
+
+.img-container-equipments {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.equipments img {
+    width: auto;
+    height: 100%;
+}
+
+.intro-equipments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+
+.equipments article:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+*/
