@@ -270,14 +270,18 @@ main {
     
 }
 
-@keyframes noise-anim{
-  $steps:20;
-  @for $i from 0 through $steps{
-    #{percentage($i*(1/$steps))}{
+@keyframes noise-anim {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    # {
+        percentage($i*(1/$steps))
+    }
+    {
       clip:rect(random(100)+px,9999px,random(100)+px,0);
     }
   }
 }
+
 .main-about-title:after{
   content:attr(data-text);
   position:absolute;
@@ -292,13 +296,14 @@ main {
 }
 
 @keyframes noise-anim-2{
-  $steps:20;
+  $steps: 20;
   @for $i from 0 through $steps{
     #{percentage($i*(1/$steps))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
     }
   }
 }
+
 .main-about-title:before{
   content:attr(data-text);
   position:absolute;
